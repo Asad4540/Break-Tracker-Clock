@@ -59,10 +59,10 @@ function resetTimers() {
 logInBtn.addEventListener('click', () => {
   if (!isWorking) {
     startWorkTimer();
-    logInBtn.textContent = 'Log Out';
+    logInBtn.textContent = 'Clock Out';
   } else {
     stopWorkTimer();
-    logInBtn.textContent = 'Log In';
+    logInBtn.textContent = 'Clock In';
   }
   isWorking = !isWorking;
 });
